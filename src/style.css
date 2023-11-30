@@ -1,0 +1,28 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  position: relative;
+  transform: translateX(-20rem);
+  opacity: 0;
+  transition: transform 800ms, opacity 1s;
+}
+
+.card.show {
+  transform: translateX(2rem);
+  opacity: 1;
+}
+.animated-element
+{
+position: relative;
+  transform: translateX(-20rem);
+  opacity: 0;
+  transition: transform 800ms, opacity 1s;
+}
+.animated-element.show
+{
+  transform: translateX(2rem);
+  opacity: 1;
+}
